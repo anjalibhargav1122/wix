@@ -1,0 +1,385 @@
+.ff {
+    font-family: HelveticaNeueW01-65Medi, HelveticaNeueW02-65Medi, HelveticaNeueW10-65Medi, sans-serif;
+    ;
+}
+
+.ff:hover {
+    text-decoration: 3px overline orange !important;
+}
+
+.ffa {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+
+}
+
+.ffa:hover {
+    font-weight: 600;
+}
+
+.lo:hover {
+    color: blue !important;
+}
+
+.loh:hover {
+    color: blue !important;
+    border-bottom: 2px solid blue;
+
+}
+
+.cl {
+    height: 17vh !important;
+    width: 13vw !important;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+    top: 383px;
+}
+
+.ht {
+    height: 67vh !important;
+    width: 19vw !important;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+    top: 383px;
+}
+
+.hp {
+    height: 82vh !important;
+    width: 20vw !important;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+    top: 383px;
+}
+
+.wh {
+    height: 72vh !important;
+    width: 39vw !important;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+    top: 383px;
+}
+
+.whh {
+    height: 77vh !important;
+    width: 57vw !important;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+    top: 383px;
+}
+
+.wdht {
+    width: 77vw !important;
+    height: 84vh !important;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+    top: 383px;
+
+}
+
+.cl li {
+    list-style-type: none;
+    margin-bottom: 11px;
+}
+
+.wdht li {
+    list-style-type: none;
+    margin-bottom: 11px;
+}
+
+.ht li {
+    list-style-type: none;
+    margin-bottom: 11px;
+}
+
+.wh li {
+    list-style-type: none;
+    margin-bottom: 11px;
+}
+
+.whh li {
+    list-style-type: none;
+    margin-bottom: 11px;
+}
+
+.hp li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.open:hover .wdht {
+    display: block;
+}
+
+.open:hover .wh {
+    display: block;
+}
+
+.open:hover .whh {
+    display: block;
+}
+
+.open:hover .ht {
+    display: block;
+}
+
+.open:hover .cl {
+    display: block;
+}
+
+.open:hover .hp {
+    display: block;
+}
+
+
+.dname {
+    display: inline-block;
+    position: relative;
+}
+
+.d {
+    cursor: pointer;
+}
+
+.d:hover {
+    background-color: rgb(224, 239, 239);
+    border-radius: 30px;
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.nam {
+    display: none !important;
+    font-size: 0.8rem !important;
+}
+
+.dname:hover .nam {
+    display: block !important;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+
+.wdre {
+    width: 71vw !important;
+    height: 89vh !important;
+    overflow: auto !important;
+}
+
+.wdso {
+    width: 78vw !important;
+    height: 89vh !important;
+    overflow: auto !important;
+}
+
+.wdpr {
+    width: 90vw !important;
+    height: 89vh !important;
+    overflow: auto !important;
+}
+
+
+.clh:hover .nc {
+    color: blue !important;
+    display: flex !important;
+    align-items: center !important;
+
+}
+
+.clh:hover .icn {
+    display: block !important;
+    left: 100px;
+}
+
+
+
+.clh:hover .lf {
+    display: block !important;
+    left: 110px;
+}
+
+.clh:hover .lf2 {
+    display: block !important;
+    left: 210px;
+}
+
+.clh:hover .lf3 {
+    display: block !important;
+    left: 422px;
+}
+
+.clh:hover .lf4 {
+    display: block !important;
+    left: 475px;
+}
+
+.clh:hover .lf5 {
+    display: block !important;
+    left: 720px;
+}
+
+.clh:hover .lf6 {
+    display: block !important;
+    left: 825px;
+}
+
+.clh:hover .lf7 {
+    display: block !important;
+    left: 770px;
+}
+
+.clh:hover .lf8 {
+    display: block !important;
+    left: 180px;
+}
+
+.clh:hover .lf9 {
+    display: block !important;
+    left: 120px;
+}
+
+.clh:hover .lf10 {
+    display: block !important;
+    left: 200px;
+}
+
+.clh:hover .lf11 {
+    display: block !important;
+    left: 405px;
+}
+
+.clh:hover .lf12 {
+    display: block !important;
+    left: 440px;
+}
+
+.clh:hover .lf13 {
+    display: block !important;
+    left: 800px;
+}
+
+.clh:hover .lf14 {
+    display: block !important;
+    left: 755px;
+}
+
+.clh:hover .lf15 {
+    display: block !important;
+    left: 850px;
+}
+
+.clh:hover .lf16 {
+    display: block !important;
+    left: 360px;
+}
+
+.clh:hover .lf17 {
+    display: block !important;
+    left: 590px;
+}
+
+.clh:hover .lf18 {
+    display: block !important;
+    left: 150px;
+}
+
+.clh:hover .lf19 {
+    display: block !important;
+    left: 490px;
+}
+
+.clh:hover .lf20 {
+    display: block !important;
+    left: 785px;
+}
+
+.clh:hover .lf21 {
+    display: block !important;
+    left: 715px;
+}
+
+.icn {
+    display: none;
+    position: absolute;
+    z-index: 99;
+}
+
+
+
+@media (max-width: 780px) {
+    .wdht {
+        height: 160vh !important;
+        width: 70vw !important;
+        top: 406px !important;
+    }
+
+    .hp {
+        height: 54vh !important;
+        width: 70vw !important;
+        top: 406px !important;
+        left: 110px !important;
+    }
+
+    .whh {
+        height: 135vh !important;
+        width: 65vw !important;
+        top: 406px !important;
+        left: 130px !important;
+    }
+
+    .wh {
+        width: 65vw !important;
+        top: 406px !important;
+        left: 130px !important;
+    }
+
+    .ht {
+        width: 55vw !important;
+        height: 40vh !important;
+        top: 406px !important;
+        left: 170px !important;
+    }
+
+    .cl {
+        width: 37vw !important;
+        height: 12vh !important;
+        top: 406px !important;
+        left: 230px !important;
+    }
+
+    .wdre {
+        width: 96vw !important;
+        height: 79vh !important;
+    }
+
+    .wdso {
+        width: 91vw !important;
+        height: 82vh !important;
+    }
+
+    .wdpr {
+        width: 96vw !important;
+        height: 86vh !important;
+    }
+
+    .dvnavbarwd {
+        width: 100% !important;
+        overflow-x: scroll !important;
+    }
+
+    .alltemp {
+        margin-left: 3rem;
+    }
+}

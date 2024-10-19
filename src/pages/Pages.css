@@ -1,0 +1,272 @@
+.bg {
+    background-image: url("../assets/cable.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.ffp {
+    font-family: HelveticaNeueW01-45Ligh, HelveticaNeueW02-45Ligh, HelveticaNeueW10-45Ligh, sans-serif;
+    color: #514f4fec;
+}
+
+.clr {
+    color: orange;
+}
+
+.clr:hover {
+    text-decoration: underline !important;
+}
+
+.rou {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rou1 {
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+
+.rou1::placeholder {
+    color: grey;
+
+}
+
+.bgd {
+    background-color: rgba(184, 178, 178, 0.705);
+    height: 18px !important;
+    display: flex;
+    align-items: center;
+}
+
+.fpf {
+    font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif;
+    font-size: 0.9rem;
+}
+
+.image {
+    position: relative;
+    z-index: 10;
+}
+
+.dvimg {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.pos:hover .dvimg {
+    opacity: 1;
+    visibility: visible;
+}
+
+.pos:hover .image {
+    z-index: 0 !important;
+}
+
+.pos {
+    position: relative;
+}
+
+.wdinp {
+    width: 50% !important;
+}
+
+.wdwx {
+    width: 50% !important;
+}
+
+.plft {
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.fwh {
+    font-weight: 400;
+}
+
+.btnver:hover {
+    background-color: blue;
+}
+
+.atg:hover {
+    color: blue !important;
+}
+
+.bgvido {
+    background-image: url("../assets/covr.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 83vh;
+    display: grid;
+    place-items: center;
+}
+
+.bgvido2 {
+    background-image: url("../assets/v4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 132vh;
+    display: grid;
+    place-items: center;
+}
+
+.hwiv {
+    width: 66%;
+    height: 90vh;
+}
+
+.hwiv2 {
+    width: 65%;
+    height: 91vh;
+}
+
+.bgclrwix {
+    background-color: rgb(227, 227, 227);
+}
+
+.overx {
+    overflow-x: scroll;
+}
+
+.dpn {
+    display: none;
+}
+
+.sgbtn:hover .dpn {
+    display: block !important;
+}
+
+.bgtxdv {
+    background-image: url("../assets/img.webp");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 113vh;
+}
+
+.imgovertra {
+    transition: transform 1s linear;
+    cursor: pointer;
+}
+
+.imgovertra:hover {
+    transform: translateY(-15%) !important;
+}
+
+.bgclrlast {
+    background-color: rgb(193, 155, 248);
+}
+
+.posbtn {
+    writing-mode: vertical-rl;
+    position: fixed;
+    bottom: 40px !important;
+    cursor: pointer;
+}
+
+.pdvdo {
+    padding-right: 3rem;
+}
+
+.bg-email {
+    background-color: blue;
+    color: white;
+    padding-left: 25px;
+}
+
+.bg-email::placeholder {
+    color: white !important;
+
+}
+
+.emeldnt {
+    display: none !important;
+}
+
+.mttxcon {
+    margin-top: 3rem;
+}
+
+@media (max-width: 780px) {
+    .wdinp {
+        width: 78% !important;
+    }
+
+    .wdwx {
+        width: 30% !important;
+    }
+
+    .plft {
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+    }
+
+    .bg {
+        height: 30vh !important;
+        margin-top: 20px;
+    }
+
+    .bgvido {
+        height: 33vh !important;
+    }
+
+    .hwiv {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bgtxdv {
+        height: 50vh !important;
+    }
+
+    .bgvido2 {
+        height: 115vh !important;
+    }
+
+    .hwiv2 {
+        width: 90% !important;
+        height: 78vh !important;
+    }
+
+    .pdvdo {
+        padding-right: 0px !important;
+    }
+
+    .mdqry {
+        background-color: rgb(193, 155, 248) !important;
+        color: black !important;
+        ;
+    }
+
+    .dnbtn2 {
+        display: none !important;
+    }
+
+    .emeldnt {
+        display: block !important;
+    }
+
+    .overx {
+        margin-top: 30px !important;
+    }
+
+    .mttxcon {
+        margin-top: 0px !important;
+    }
+
+    .cadwdg {
+        width: 95% !important;
+    }
+}
